@@ -6,10 +6,10 @@ export class AuthService {
     constructor(private prisma: PrismaService){}
 
     signup(){
-        return 'I am signed up'
+        return {msg: 'I am signed up'}
     }
 
     signin(){
-        return 'I am signed in'
+        return {msg: 'I am signed in'}
     }
 }
